@@ -3,7 +3,12 @@ from qrcode.image.styledpil import StyledPilImage
 from qrcode.image.styles.moduledrawers.pil import RoundedModuleDrawer
 from qrcode.image.styles.colormasks import RadialGradiantColorMask
 
-code_data = input("What should the QR code link to?: ")
+#######################
+# Open QR VER 0.1 ALPHA (Now old, see new version for GUI & other features)
+# OpenQR Script version, no GUI here
+#######################
+
+code_data = ("pfvjibiuojnojnjonjonjnb")
 
 qr = qrcode.QRCode(# Version determines size, integer 1 > 40, none & fit = True sets value automatically
                    version = None,
@@ -29,3 +34,4 @@ code_output = qr.make_image(# Automatically determines QR code size
                             )
 
 code_output.save("output.png")
+

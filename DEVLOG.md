@@ -29,3 +29,32 @@ Fingers crossed I can get a bit of progress done soon, after getting the images 
 Then hopefully having the QR code image update every time a new one is generated may be automatic or can be fairly easily refreshed.
 
 ##
+
+## 25&26/02/2026 - A change of plan
+
+**Good news**, the command line version of this proram works amazingly, in no small part thanks to the maintainers
+of the python module 'qrcode' (https://github.com/lincolnloop/python-qrcode)
+
+However, making a frontend that can effectively use said program was a lot less simple than I initially
+expected. The previous plan was to find a way that python can work in a browser, with the idea that
+anyone would be able to visit the website with OpenQR and use it for free. It would be local, so
+no need to think about cloud storage costs, and it would be python, meaning I don't have to re-qrite
+the qrcode module in JavaScript (because I'd rather make the best product possible for the least work
+possible)
+
+So, after the rather obvious revelation that python in a browser is not the most seamless
+thing ever (with many threads being full of 'Get good, use javascript') I pivoted into making a simple
+desktop app. For now I'm making an app with Tkinter, as it's simple and functional. Though I might
+wrap it in something lighter and prettier that can call back to python sometime in the future.
+
+Make stuff work, then make it good in every other aspect: Looks, accessibility, performance etc
+
+(Functional requirements first!)
+
+So along with this entry there's a release of V0.2, which allows you to simply enter anything in 
+the text field, press DISPLAY and a qr code will appear!
+
+For now, the rounded style is applied by default, and a silly smily face icon lives in the center
+just to show what customisation options are planned in future releases.
+
+Fingers crossed the next release should be much more feature rich!
