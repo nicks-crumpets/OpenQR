@@ -1,5 +1,4 @@
-# What's OpenQR?
-
+# OpenQR
 A simple, local, free, open source, easy to use QR code generator
 
 ## Why make this?
