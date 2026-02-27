@@ -7,16 +7,12 @@ I want to occasionally make the odd QR code, but you're currently stuck with 2 o
 that pesters you to sign up, and/or constant 'pay for more features' popups. Which on something you can make
 locally, and never expires, sounds rather silly.
 
----
 ## Usage
 V0.2
 
 - Run app.py
 - Enter the URL or text for the QR code in the text field
 - Click 'Display'
-
-
----
 
 ## Roadmap
 
@@ -29,7 +25,6 @@ A **very** broad overview of the plans for OpenQR, there are other ideas, but I 
 
 **If you want to give feature suggestions please do!**
 
----
 
 # What did you use to build this?
 For the backend I'm using the python-qrcode library as it's simple to use.
