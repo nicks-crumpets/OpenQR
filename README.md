@@ -10,10 +10,11 @@ locally, and never expires, sounds rather silly.
 
 ---
 ## Usage
-V0.2
+V0.2.1
 
 - Run app.py
 - Enter the URL or text for the QR code in the text field
+- Choose a style option from the list
 - Click 'Display'
 
 
@@ -25,14 +26,24 @@ A **very** broad overview of the plans for OpenQR, there are other ideas, but I 
 
 - [x] ~~Create the scripts for the generator~~
 - [x] ~~Make a proof of concept desktop app~~
-- [ ] Allow for complete user selection on as many options as possible, colours, custom logos etc.
-- [ ] Mobile app
+- - [x] ~~Allow choosing of styles for QR~~
+- - [ ] Bugfix: Stop a code from appearing when a style is selected before it's first generated
+- - [ ] Gradient & colour background options on QR code
+- - [ ] Colour & image backgrounds behind QR code
+- - [ ] Download button for the QR code
+- - [ ] Downloading QR codes as SVG files
+- [ ] Prettify the UI of the desktop app
+- [ ] Installer for OpenQR Desktop
+- [ ] Mobile app? Maybe...
 
 **If you want to give feature suggestions please do!**
 
 ---
 
 # What did you use to build this?
+
+Python... lots and lots of python
+
 For the backend I'm using the python-qrcode library as it's simple to use.
 https://github.com/lincolnloop/python-qrcode
 
@@ -46,10 +57,12 @@ Once I'm happy with the feature set, I'll look to make mobile apps.
 
 There are now plans for mobie app releases, I'm looking into making android and IOS apps, and with
 funding they may both release together, otheriwse android will be first with IOS to shortly follow
-**Please note this still is a long term plan!**
+
+**Please note this still is a long term plan, no promises :)**
 
 ### Important notices
-**OpenQR is and allways will be totally free and open source.** 
+**OpenQR is, and allways will be totally free and open source.**
+_All and any donations of money for anything excluding cloud hosting are 100% voluntary_
 
 You are welcome to use it for both non-commercial 
 and commercial use cases, however attribution is required for commercial usage*.

@@ -54,7 +54,14 @@ Make stuff work, then make it good in every other aspect: Looks, accessibility, 
 So along with this entry there's a release of V0.2, which allows you to simply enter anything in 
 the text field, press DISPLAY and a qr code will appear!
 
-For now, the rounded style is applied by default, and a silly smily face icon lives in the center
+For now, the rounded style is applied by default, and a silly smily face icon lives in the centre
 just to show what customisation options are planned in future releases.
 
 Fingers crossed the next release should be much more feature rich!
+
+## 01/03/2026 - More styling, 
+
+Simple one, just adding in the rest of the styling options available in the python qrcode package along
+with removing some redundant code, some nice commenting in places (I'm fixing that all soon), and removing
+the image in the center by default to make way for the image upload option for the centre of the QR code in
+a later release (and because most people just want a QR code without some random smiley face in the middle of it)
